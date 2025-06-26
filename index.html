@@ -19,17 +19,19 @@
 
 
 </head>
-<body>
+<body class="min-h-screen flex justify-center items-center">
 
 
-    <div class="max-w-4xl px-4 my-10 mx-auto grid grid-cols-1 lg:grid-cols-2 ">
+    <div class="max-w-4xl  my-10 mx-auto grid grid-cols-1 gap-5 lg:grid-cols-2 bg-white shadow-xl rounded-xl ">
         <!-- left side -->
-        <div>
+        <div class="pl-4 py-5">
             <h1 class="text-xl lg:text-4xl font-bold text-center pb-4">Create an account</h1>
-            <button class="border py-2 lg:w-[90%] font-semibold rounded-2xl ">Create account with Google</button>
-            <form class="pt-8">
+            <button class="border flex items-center justify-center gap-4 py-2 lg:w-[90%] font-semibold rounded-2xl ">Create account with Google <img src="assets/icons8-google-48.png" class="h-6 w-6" alt="">
+            </button>
+            <div class="divider pt-5">OR</div>
+            <form class="pt-5">
                 <!-- gmail section -->
-                <div class=" w-full pt-11 ">
+                <div class=" w-full ">
                     <label class="font-bold block mb-1 text-gray-500">Email Address:</label>
                     <input required placeholder="Enter a valid email" class="py-2 px-4 w-full border rounded-md" type="text">
             
@@ -49,7 +51,7 @@
 
                      </div>
 
-                     <div class="pt-6">
+                     <div class="pt-4">
                           <button class="px-4 py-2 mx-auto bg-black rounded-xl text-white font-bold"> Sign Up</button>
 
                      </div>
@@ -63,7 +65,7 @@
 
          <!-- right side   -->
         <div>
-            <img src="assets/image 14.png" class="h-full rounded-r-xl" alt="">
+            <img src="assets/image 14.png" class="h-full w-full rounded-r-xl" alt="">
         </div>
 
     </div>
